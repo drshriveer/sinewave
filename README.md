@@ -3,7 +3,7 @@ sinewave
 
 A discrete and continuous audio sine wave generation library for Java.
 
-This library was original written as part of PitchLab; a continuation of research into [human pitch perception](http://www.phys.washington.edu/~vladi/pitch/JASA_94/abs_pitch.html), written by ME! The project migrated an application written in the early 1990s to cross platform and modern Java. Unfortunately because this research is on-going I am unable to release the entire source of the project. However this library is fine. Also please note these files have not been used or modified prior to this release (other than a few more comments), so some of the methods are purely experimental and possibly broken.
+This library was original written as part of PitchLab in 2009; a continuation of research into [human pitch perception](http://www.phys.washington.edu/~vladi/pitch/JASA_94/abs_pitch.html), written by ME! The project migrated an application written in the early 1990s to cross platform and modern Java. Unfortunately because this research is on-going I am unable to release the entire source of the project. However this library is fine. Also please note these files have not been used or modified prior to this release (other than a few more comments), so some of the methods are purely experimental and possibly broken.
 
 ##### NOTE: older windows machines sometimes have issues generating continuous tones. 
 This is likely due to lack of buffer depth which would delay the response time when changing the tone on the fly. This responsiveness is crucial to the research.
