@@ -23,15 +23,13 @@ This will generate a pure sine wave for a particular frequency until told to sto
 
 The command-line (testing) interface is very straight forward. Simply type in the frequency you want to hear and it will play.... endlessly. Until you type the next frequency you wish to hear.  
 
-##### To Compile:
+##### To Compile and Run:
 To compile and run the program navigate to the directory above `sinewave` in a terminal and type:
 
     $ javac sinewave/*.java             # to compile
     $ java sinewave/Sine                # to run the discrete sine wave
-    $ java sinewave/RemoteControl       # to run the server
+    $ java sinewave/SineContinuous      # to run the continuous sine wave
 
-##### Alternatively:
-  Alternatively, use fatJAR or another JARing program and create `.jar` files for the client and server independently so that you can run them with a double click! 
 
 Questions & Comments
 -------------
